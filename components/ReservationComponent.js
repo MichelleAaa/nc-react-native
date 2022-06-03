@@ -52,7 +52,6 @@ class Reservation extends Component {
                         this.presentLocalNotification(this.state.date.toLocaleDateString('en-US'));
                         this.resetForm();
                     }
-
                 },
             ],
             { cancelable: false }
